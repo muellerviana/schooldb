@@ -1,0 +1,6 @@
+class Turma < ApplicationRecord
+
+
+    
+    
+end
