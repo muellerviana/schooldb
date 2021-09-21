@@ -12,3 +12,6 @@ class CreateStudent < ActiveRecord::Migration[6.1]
     end
   end
 end
+
+
+#student = Student.new(CPF: "11122233355", name: "Mueller Mendes Viana", email: "muellerviana@gmail.com", phone_number: "993377297", birth_date: 07/31/1994
