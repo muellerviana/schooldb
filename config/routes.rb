@@ -1,8 +1,14 @@
 Rails.application.routes.draw do
 
-  root "home#index"
+  
+  root "login#index"
+  
   get "/alunos", to: "students#index"
-  resources :home
+  get 'home/index', to: "home#index"
+
+
+  resources :login, only: [:index]
+  resources :home, olny: [:index]
 
 
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
